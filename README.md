@@ -67,7 +67,7 @@ yes > /dev/null # this will instantly consume one core's worth of CPU power
 ```
 
 And now we can call this a container.
-# Docker
+## Docker
 Docker is a commandline tool that made creating, updating packaging, distributing, and running containers significantly easier which in turns allowed them become very popular with not just system administraters but the programming populace at large. At its heart, it's a command line to achieve what we were doing with cgroups, namespaces, and chroot but in a much more convenient way.
 ## Docker Desktop
 Go ahead and install [Docker](https://www.docker.com/products/docker-desktop) Desktop right now. It will work for both Mac and Windows. If you're on Mac, you'll see a cute little whale icon in your status bar. Feel free to poke around and see what it has. It will also take the liberty of installing the `docker` commandline tool so we can start doing all the fun things with Docker.
